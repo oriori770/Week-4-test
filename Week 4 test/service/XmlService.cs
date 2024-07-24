@@ -29,7 +29,7 @@ namespace Week_4_test.service
         }
         public void SaveQueryToFile(XElement Query)
         {
-            //CreateFile(filePath);
+            CreateFile(filePath);
             Query.Save(filePath);
 
         }
